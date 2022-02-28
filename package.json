@@ -1,0 +1,42 @@
+{
+  "name": "clipshare",
+  "version": "0.0.1",
+  "description": "Securely synchronize your clipboard across multiple computers",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/b0o/clipshare"
+  },
+  "author": "Maddison Hellstrom <github.com/b0o>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/b0o/clipshare/issues"
+  },
+  "homepage": "https://github.com/b0o/clipshare#readme",
+  "type": "module",
+  "engines": {
+    "node": ">=12.17"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@johnls/readline-password": "^1.1.0",
+    "async-mutex": "^0.3.2",
+    "conf": "^10.1.1",
+    "express": "^4.17.3",
+    "js-yaml": "^4.1.0",
+    "meow": "^10.1.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.5",
+    "@babel/eslint-parser": "^7.17.0",
+    "@babel/plugin-proposal-nullish-coalescing-operator": "^7.16.7",
+    "@babel/plugin-proposal-optional-chaining": "^7.16.7",
+    "@babel/plugin-syntax-top-level-await": "^7.14.5",
+    "eslint": "^8.10.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.4"
+  }
+}
