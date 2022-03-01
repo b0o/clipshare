@@ -46,12 +46,12 @@ class App {
     --listen    -l  Address and port listen on, of the form [addr][:port].
                     Default: ${this.schema.listen.default}
 
-    --name          Name of the local server
+    --name          Name of the local server (used to find the local TLS certificate).
                     Default: ${this.schema.name.default}
 
     --remote    -r  URL of remote peer to share clipboard with.
 
-    --remote-name   URL of remote peer to share clipboard with.
+    --remote-name   Name of remote peer (used to find the remote TLS certificate).
                     Default: ${this.schema.remote_name.default}
 
     --password  -P  Password used to authenticate with remote peer.
