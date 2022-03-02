@@ -76,6 +76,6 @@ The name of the remote's `.pem` file should be the same as the local host's `rem
 
 ## License
 
-&copy; 2021 Maddison Hellstrom
+&copy; 2021-2022 Maddison Hellstrom
 
 Released under the MIT License.
