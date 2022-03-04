@@ -39,7 +39,7 @@ name: "janes-desktop"
 remote_name: "janes-laptop"
 ```
 
-## SSL Certificates
+## TLS Certificates
 
 Generate a self-signed certificate on each machine separately using [`./scripts/gen-certs.sh`](https://github.com/b0o/clipshare/blob/main/scripts/gen-certs.sh):
 
